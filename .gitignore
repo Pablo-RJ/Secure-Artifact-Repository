@@ -1,0 +1,19 @@
+# Python - Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (Si llegas a crear uno localmente)
+venv/
+.env
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+.git/
+
+# Notas de Obsidian (Mejor que vivan solo en tu carpeta de notas)
+.obsidian/
+
+# Reportes temporales que no quieras versionar
+*.log
