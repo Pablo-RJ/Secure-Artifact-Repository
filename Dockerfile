@@ -8,7 +8,7 @@ RUN adduser --system --group appuser
 WORKDIR /app
 
 # 3. Copiamos los archivos (ahora a la carpeta /app)
-COPY app.py .
+COPY app/app.py .
 
 # 4. Instalamos dependencias
 RUN pip install --no-cache-dir flask==3.0.0
