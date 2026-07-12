@@ -1,9 +1,13 @@
 # Secure Artifact Factory
+![Status](https://img.shields.io/badge/Status-Completed--Archived-gray?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-Python-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Docker-blue?logo=docker&logoColor=white)
 ![Security](https://img.shields.io/badge/security-Trivy%20SCA-green.svg)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-black?logo=githubactions&logoColor=white)
 ![Status](https://github.com/Pablo-RJ/Secure-Artifact-Repository/actions/workflows/security-scan.yml/badge.svg)
+
+> [!NOTE]
+> **Project Status: Archived / Completed.** This repository is finalized and is no longer actively maintained. It remains public as a portfolio project.
 
 ## 🔍Overview
 This project implements an automated container hardening pipeline. It demonstrates the lifecycle of a microservice, moving from a vulnerable legacy state to a production-ready, hardened artifact.
@@ -56,8 +60,8 @@ trivy image secure-app:latest
 * If any critical flaws are found, the build is automatically terminated (Exit Code 1), preventing insecure deployments.
 
 ## 📜Credits
-* Lead Engineer: Pablo Rodriguez Jimenez
+* Lead Engineer: Pablo Rodriguez Jimenez (Finished development, project archived).
 * Status: Telecommunications Engineering Student (UGR).
 * Goal: High-scale Cloud Security & DevSecOps.
 ---
-Educational Project - Focusing on Secure Supply Chain Management
+Educational Project (Archived) - Focusing on Secure Supply Chain Management
